@@ -1,6 +1,7 @@
 services:
   - type: web
     name: collab-poker
+    region: singapore
     runtime: node
     plan: free
     buildCommand: npm ci && npm run build
